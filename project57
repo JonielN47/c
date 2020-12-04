@@ -3,43 +3,42 @@
 #December 3rd, 2020
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-		int credits;
-		cout << "Enter number of credits: ";
-		cin >> credits;
-		if (credits<=15)
-{
-		cout << "Lower Freshman";
-}
-else if (credits>15 && credits<28)
-{
-		cout << "Upper Freshman";
-}
-else if (credits>28 && credits<45)
-{
-		cout << "Lower Sophomore";
-}
-else if (credits>45 && credits<61)
-{
-		cout << "Upper Sophomore";
-}
-else if (credits>61 && credits<75)
-{
-		cout << "Lower Junior";
-}
-else if (credits>75 && credits<94)
-{
-		cout << "Upper Junior";
-}
-else if (credits>94 && credits<108)
-{
-		cout << "Lower Senior";
-}
-else
-{
-		cout << "Upper Senior";
-}
-return 0;
+  int num;
+  cout<<"Enter the number of credits:";
+  cin>>num;
+  if (num<=15)
+  {
+    cout<<"Lower Freshman\n";
+  }
+  else if (15<num && num<28)
+  {
+    cout<<"Upper Freshman\n";
+  }
+  else if (28<=num && num<=45)
+  {
+    cout<<"Lower Sophomore\n";
+  }
+  else if (45<num && num<61)
+  {
+    cout<<"Upper Sophomore\n";
+  }
+  else if (61<=num && num<=75)
+  {
+    cout<<"Lower Junior\n";
+  }
+  else if (75<num && num<94)
+  {
+    cout<<"Upper Junior\n";
+  }
+  else if (94<=num && num<=108)
+  {
+    cout<<"Lower Senior\n";
+  }
+  else{
+    cout<<"Upper Senior\n";
+  }
+  return 0;
 }
