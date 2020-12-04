@@ -9,36 +9,36 @@ int main()
   int num;
   cout<<"Enter the number of credits:";
   cin>>num;
-  if (num<=15)
+ if (num<=15)
   {
     cout<<"Lower Freshman\n";
   }
-  else if (15<num && num<28)
+ else if (15<num && num<28)
   {
     cout<<"Upper Freshman\n";
   }
-  else if (28<num && num<45)
+ else if (28<num && num<45)
   {
     cout<<"Lower Sophomore\n";
   }
-  else if (45<num && num<61)
+ else if (45<num && num<61)
   {
     cout<<"Upper Sophomore\n";
   }
-  else if (61<num && num<75)
+ else if (61<num && num<75)
   {
     cout<<"Lower Junior\n";
   }
-  else if (75<num && num<94)
+ else if (75<num && num<94)
   {
     cout<<"Upper Junior\n";
   }
-  else if (94<num && num<108)
+ else if (94<num && num<108)
   {
     cout<<"Lower Senior\n";
   }
-  else{
+ else{
     cout<<"Upper Senior\n";
   }
-  return 0;
+ return 0;
 }
