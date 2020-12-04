@@ -6,40 +6,40 @@
 
 int main()
 {
-		int credits;
-		cout << "Enter number of credits: ";
-		cin >> credits;
-		if (credits<=15)
+	int credits;
+	cout << "Enter number of credits: ";
+	cin >> credits;
+	if (credits<=15)
 {
-		cout << "Lower Freshman";
+	cout << "Lower Freshman";
 }
 else if (credits>15 && credits<28)
 {
-		cout << "Upper Freshman";
+	cout << "Upper Freshman";
 }
 else if (credits>28 && credits<45)
 {
-		cout << "Lower Sophomore";
+	cout << "Lower Sophomore";
 }
 else if (credits>45 && credits<61)
 {
-		cout << "Upper Sophomore";
+	cout << "Upper Sophomore";
 }
 else if (credits>61 && credits<75)
 {
-		cout << "Lower Junior";
+	cout << "Lower Junior";
 }
 else if (credits>75 && credits<94)
 {
-		cout << "Upper Junior";
+	cout << "Upper Junior";
 }
 else if (credits>94 && credits<108)
 {
-		cout << "Lower Senior";
+	cout << "Lower Senior";
 }
 else
 {
-		cout << "Upper Senior";
+	cout << "Upper Senior";
 }
 return 0;
 }
